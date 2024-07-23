@@ -1,0 +1,13 @@
+api:
+  port: 8000
+
+model_training:
+  n_factors: 50
+  lr: 0.005
+  reg: 0.02
+  n_epochs: 20
+
+pricing:
+  rule1: "Increase by 20% for high predicted ratings"
+  rule2: "Increase by 10% for moderate predicted ratings"
+  rule3: "Decrease by 10% for low predicted ratings"
